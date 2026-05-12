@@ -1,11 +1,5 @@
 # Enterprise Security Automation Portfolio
-
-## Portfolio Headline
-
-Senior Security Engineer transitioning into Security Automation, AI Security Operations, and Cloud Security Platform Engineering.
-
 ## Purpose
-
 This repository is part of my enterprise security automation portfolio focused on:
 
 - Security automation engineering
