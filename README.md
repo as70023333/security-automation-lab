@@ -29,7 +29,7 @@ flowchart LR
 
 | | |
 |---|---|
-| **Who** | Built and run by Alex S. For SOC analysts and security engineers who want to practise detection and response automation without an enterprise budget. |
+| **Who** | Built and run by as70023333 (Al) For SOC analysts and security engineers who want to practise detection and response automation without an enterprise budget. |
 | **What** | An open-source SIEM (Wazuh) wired to an open-source SOAR (Shuffle), so an alert is enriched, reported and contained without a person in the loop. |
 | **When** | Used for hands-on practice, for testing detections and playbooks before they go near production, and as a demo environment. |
 | **Where** | One Ubuntu Server droplet on DigitalOcean: 2 vCPUs, 4 GB RAM, 4 GB swap. |
