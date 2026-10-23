@@ -81,9 +81,9 @@ That is the main constraint of this footprint and the reason for the swap file.
 
 ### Phase 1: Foundation and first playbook (🚧 in progress)
 
-- [ ] Wazuh single-node stack running on the droplet
-- [ ] Shuffle stack running alongside it within the 4 GB budget
-- [ ] Wazuh alerts streaming into a Shuffle webhook
+- [x] Wazuh single-node stack running on the droplet
+- [x] Shuffle stack running alongside it within the 4 GB budget
+- [x] Wazuh alerts streaming into a Shuffle webhook
 - [ ] VirusTotal and AbuseIPDB enrichment nodes
 - [ ] Discord / Slack alert cards for high-priority events
 - [ ] Active response from Shuffle: isolate a machine, block an attacker IP
