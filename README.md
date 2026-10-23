@@ -6,7 +6,7 @@ SIEM and SOAR pipeline, running on a single DigitalOcean droplet.
 > **Status: 🚧 in progress.** The lab is being built now. This README describes the design and the
 > roadmap; configuration, playbooks and scripts are added to this repository as each phase lands.
 
-## 🚀 Lab Architecture
+##  Lab Architecture
 
 * **SIEM / Telemetry Engine:** Wazuh Manager (Single-node OpenSearch architecture)
 * **SOAR / Orchestration:** Shuffle SOAR (Resource-optimized container setup)
@@ -25,7 +25,7 @@ flowchart LR
     B -->|isolate host<br/>block IP| A
 ```
 
-## 🧭 Who, what, when, where, why
+##  Who, what, when, where, why
 
 | | |
 |---|---|
@@ -35,7 +35,7 @@ flowchart LR
 | **Where** | One Ubuntu Server droplet on DigitalOcean: 2 vCPUs, 4 GB RAM, 4 GB swap. |
 | **Why** | To prove the detect, enrich, notify and respond loop end to end on a budget, and to keep a vendor-neutral counterpart to the Microsoft Sentinel work in this portfolio. |
 
-## 🎯 Active Initiatives
+##  Active Initiatives
 
 | Initiative | What it does | Status |
 |---|---|---|
@@ -77,7 +77,7 @@ That is the main constraint of this footprint and the reason for the swap file.
 * Both stacks expose web interfaces and an OpenSearch port; check for port clashes when both
   compose files are up.
 
-## 🗺️ Roadmap
+##  Roadmap
 
 ### Phase 1: Foundation and first playbook (🚧 in progress)
 
